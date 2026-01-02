@@ -57,7 +57,7 @@ def create_subset_structure(categories_list):
 # STEP 3A: Select random images from a category
 def select_images_from_category(category_path, min_images=1, max_images=2):
     """
-    Randomly selects 1-2 images from a food category folder.
+    Randomly selects 10 images from a food category folder.
     
     Args:
         category_path: Full path to the category folder (e.g., food-101/images/apple_pie)
